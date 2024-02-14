@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "campfriedegg",
+	"version": "${version}",
+	"name": "Campfried Egg",
+	"description": "You've got a campfire? Let's fry an egg!",
+	"authors": [
+		"Blyrium"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/campfried-egg",
+		"sources": "https://github.com/Blyrium/campfried-egg-1.20.1"
+	},
+	"license": "MIT",
+	"icon": "assets/campfriedegg/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.blyrium.campfriedegg.CampfriedEgg"
+		],
+		"client": [
+			"net.blyrium.campfriedegg.CampfriedEggClient"
+		],
+		"fabric-datagen": [
+			"net.blyrium.campfriedegg.CampfriedEggDataGenerator"
+		]
+	},
+	"mixins": [
+		"campfriedegg.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
