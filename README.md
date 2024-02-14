@@ -13,6 +13,9 @@ They :
 - restore 0.55 saturation
 - are stackable up to 64
 
+[Video demonstration](https://github.com/Blyrium/campfried-egg-template-1.20.1/assets/159631095/ead16c30-6e52-41e1-8b7c-39b24cf2280f)
+
+
 ---
 
 Tested with Fabric API 0.91.0+1.20.1
