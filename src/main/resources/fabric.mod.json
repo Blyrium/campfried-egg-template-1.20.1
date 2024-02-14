@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/campfried-egg",
-		"sources": "https://github.com/Blyrium/campfried-egg-1.20.1"
+		"sources": "https://github.com/Blyrium/campfried-egg-template-1.20.1"
 	},
 	"license": "MIT",
 	"icon": "assets/campfriedegg/icon.png",
