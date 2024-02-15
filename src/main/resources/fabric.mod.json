@@ -18,9 +18,6 @@
 		"main": [
 			"net.blyrium.campfriedegg.CampfriedEgg"
 		],
-		"client": [
-			"net.blyrium.campfriedegg.CampfriedEggClient"
-		],
 		"fabric-datagen": [
 			"net.blyrium.campfriedegg.CampfriedEggDataGenerator"
 		]
