@@ -17,14 +17,8 @@
 	"entrypoints": {
 		"main": [
 			"net.blyrium.campfriedegg.CampfriedEgg"
-		],
-		"fabric-datagen": [
-			"net.blyrium.campfriedegg.CampfriedEggDataGenerator"
 		]
 	},
-	"mixins": [
-		"campfriedegg.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.15.3",
 		"minecraft": "~1.20",
